@@ -8,21 +8,34 @@
 <!-- -->
 </head>
 <body>
+    <div class="form-container">
+    <h2>Formulário do aluno</h2>
+    <Form>
     <label for="nome">Matricula</label><!--para nomear -->
-    <input type="text" size="50" maxlength="40" value=""/><br><br> <!--tipo de entrada , tamanho ,valor e largura -->
+    <input type="text" id="Matricula" size="50" maxlength="40" value="" required /><br><br> <!--tipo de entrada , tamanho ,valor e largura -->
+
     <label for="nome">Nome</label>
-    <input type="text" size="50" maxlength="40" value=""/><br><br>
+    <input type="text" id="Nome" size="50" maxlength="40" value="" required /><br><br>
+
     <label for="nome">Endereço</label>
-    <input type="text" size="50" maxlength="40" value=""/><br><br>
+    <input type="text" id="Endereço" size="50" maxlength="40" value="" required/><br><br>
+
+    <label for="nome">Diciplina</label>
+    <input type="text" id="Diciplina" size="50" maxlength="40" value="" required/><br><br>
+
     <label for="nome">Nota</label>
-    <input type="text" size="50" maxlength="40" value=""/><br><br>
+    <input type="number" id="Nota" size="50" maxlength="40" value="" required/><br><br>
+
     <label for="opcoes">Aprovado?</label><br><br><!--tipo de botão para escolha -->
-    <select id="opcoes" name="opcoes">
+    <select id="opcoes"  name="opcoes">
         <option value="opcao1">Sim</option>
-        <option value="opcao2">Nao</option>
+        <option value="opcao2">Não</option>
      
     </select>
-     <input type="submit" name="enviar" value="Enviar" ><!-- botão para enviar-->
+     <input type="submit" name="enviar" value="Enviar" ><br></br><!-- botão para enviar-->
+
+    </Form>
+    </div>
 
    
 
@@ -31,3 +44,5 @@
     
 </body>
 </html>
+
+ 
