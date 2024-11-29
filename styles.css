@@ -19,6 +19,12 @@ body {
    
   
 }
+h3 {
+   
+    text-align: center;/*Centraliza o texto do título*/
+    color: #000000;/* Define a cor do título como preto*/
+    
+}
 h2 {
    
     text-align: center;/*Centraliza o texto do título*/
