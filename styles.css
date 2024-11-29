@@ -1,63 +1,63 @@
 body {
         font-family: Arial, sans-serif; /*fonte da letra */ /**/
         background-color: #f4f4f4;/*cor de fundo da pagina */
-        display: flex; /*para centralizar*/
-        justify-content: center;/*para centralizar*/
-        align-items: center;/*para alinhar*/
-        height: 110vh;/*centralizar*/
-        margin: 0;
-        border: 400;
+        display: flex; /* criar um layout flexível, facilitando a centralização*/
+        justify-content: center;/* Alinha o conteúdo horizontalmente ao centro*/
+        align-items: center;/* Alinha o conteúdo verticalmente ao centro*/
+        height: 110vh;/* Define a altura da página*/
+        margin: 0;  /*Remove qualquer margem padrão do body*/
+        
 
 }
 .form-container {
-    background-color: rgb(255, 255, 255);/*cor de fundo*/
+    background-color: rgb(255, 255, 255);/*cor de fundo do container*/
     border: 2px solid #0a0a0a; /* Borda ao redor do contêiner */
-    padding: 20px;
+    padding: 20px; /*Define um espaçamento interno de 20px ao redor do conteúdo do contêiner*/
     border-radius: 8px; /* Bordas arredondadas */
-    width: 400px;/* Largura do formulário */
+    width: 400px;/* Largura do container */
     box-sizing: border-box;/* Inclui o padding e a borda no cálculo da largura */
-    margin: center;
+   
   
 }
 h2 {
    
-    text-align: center;
-    color: #000000;
+    text-align: center;/*Centraliza o texto do título*/
+    color: #000000;/* Define a cor do título como preto*/
     
 }
 label {
-    font-size: 16px;
-    margin-bottom: 5px;
-    color: #000000;
+    font-size: 16px;/* Define o tamanho da fonte do label*/
+    margin-bottom: 5px;/* Adiciona um espaço abaixo de cada label*/
+    color: #000000;/*Define a cor do texto como preto*/
 }
 input[type="number"],select {
-    padding: 10px;
-    width: 350px;
-    box-sizing: border-box;
-    border: 1px solid #ccc; /* Borda ao redor do contêiner */
-    margin-bottom: 5px;
+    padding: 10px;/* Define um espaçamento*/
+    width: 350px;/*Define a largura*/
+    box-sizing: border-box;/* Inclui o padding e a borda no cálculo da largura */
+    border: 1px solid #ccc; /* Define uma borda cinza-claro  */
+    margin-bottom: 5px;/* Adiciona um espaço abaixo dos campos de entrada*/
    
     
 }
 
 input[type="text"], select {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-sizing: border-box;
+    width: 100%;/* Faz os campos de texto ocuparem 100% da largura*/
+    padding: 10px;/* Define um espaçamento*/
+    margin-bottom: 15px;/*Adiciona um espaçamento maior abaixo dos campos*/
+    border: 1px solid #ddd;/*Define uma borda de cor cinza claro */
+    border-radius: 4px;/*Aplica bordas arredondadas */
+    box-sizing: border-box;/*Inclui o padding e a borda no cálculo da largura total*/
 }
 
 input[type="submit"] {
     background-color: #4CAF50;  /*cor de fundo do botão*/
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 100%;
-    font-size: 16px;
+    color: white;/* Define a cor do texto do botão como branco*/
+    padding: 10px 15px;/* Define um espaçamento */
+    border: none;/* Remove a borda padrão do botão*/
+    border-radius: 4px;/* Aplica bordas arredondadas*/
+    cursor: pointer;/* Aplica um cursor de "mãozinha" quando o mouse está sobre o botão*/
+    width: 100%;/*Faz o botão ocupar 100% da largura*/
+    font-size: 16px;/*Define o tamanho da fonte do botão*/
 }
 
 input[type="submit"]:hover {
