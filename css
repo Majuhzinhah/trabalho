@@ -20,10 +20,7 @@ body {
   
 }
 h2 {
-    display: flex;
-    justify-content: center;
-  
-    height: 100vh;
+   
     text-align: center;
     color: #000000;
     
