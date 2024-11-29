@@ -19,7 +19,16 @@ body {
    
   
 }
-
+.form-container2 {
+    background-color: rgb(255, 255, 255);/*cor de fundo do container*/
+    border: 2px solid #0a0a0a; /* Borda ao redor do contêiner */
+    padding: 20px; /*Define um espaçamento interno de 20px ao redor do conteúdo do contêiner*/
+    border-radius: 8px; /* Bordas arredondadas */
+    width: 400px;/* Largura do container */
+    box-sizing: border-box;/* Inclui o padding e a borda no cálculo da largura */
+   
+  
+}
 h2 {
    
     text-align: center;/*Centraliza o texto do título*/
